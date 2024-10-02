@@ -1,0 +1,49 @@
+/*
+Dark to Light
+#7F6150 // Roman Coffee
+#DBA465 // Di Serria
+#F2CF8D // Manhattan
+#E4E4D6 // Moon Mist
+*/
+
+/* GLOBAL STYLES 
+----------------------------------------*/
+
+body {
+    background: #E4E4D6; /* Moon Mist */
+}
+
+/* HOME
+----------------------------------------*/
+.home {
+    background: url(../images/bg-coffee-shop.jpg) no-repeat;
+    background-size: cover;
+}
+
+.home .content-wrapper {
+    background: rgb(255 255 255 / 0.9);
+}
+
+/* RESUME 
+----------------------------------------*/
+
+/* Profile
+----------------------------------------*/
+
+/* Projects
+----------------------------------------*/
+
+/* Work Experience 
+----------------------------------------*/
+
+/* Education
+----------------------------------------*/
+
+
+/* FOOTER
+----------------------------------------*/
+
+footer {
+    background: #7F6150;
+    color: #DBA465;
+}
