@@ -1,5 +1,7 @@
 /*
 Dark to Light
+#3C8453 // Dark Green
+
 #7F6150 // Roman Coffee
 #DBA465 // Di Serria
 #F2CF8D // Manhattan
@@ -9,8 +11,47 @@ Dark to Light
 /* GLOBAL STYLES 
 ----------------------------------------*/
 
+/*
+    https://www.paulirish.com/2012/box-sizing-border-box-ftw/
+*/
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+html, body {
+    height: 100%;
+}
 body {
     background: #E4E4D6; /* Moon Mist */
+    margin: 0;
+}
+
+/* links */
+a {
+    color: #3C8453; /* Dark Green */
+}
+
+a:hover {
+    color: #F2CF8D; /* Manhattan */
+    text-decoration: none;
+}
+
+footer a {
+    color: #F2CF8D; /* Manhattan */
+}
+
+footer a:hover {
+    color: #3C8453; /* Dark Green */
+    text-decoration: none;
+}
+
+.btn {
+    background: #3C8453; /* Dark Green */
+    color: #E4E4D6;
+    text-decoration: none;
 }
 
 /* HOME
@@ -21,7 +62,7 @@ body {
 }
 
 .home .content-wrapper {
-    background: rgb(255 255 255 / 0.9);
+    background: rgb(255 255 255 / 0.9); /* White */
 }
 
 /* RESUME 
@@ -46,4 +87,16 @@ body {
 footer {
     background: #7F6150;
     color: #DBA465;
+}
+
+.socials {
+    list-style-type: none;
+    padding: 0;
+}
+.socials li {
+    display: inline-block
+}
+
+.socials img {
+    width: 32px;
 }
