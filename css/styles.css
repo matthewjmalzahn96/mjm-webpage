@@ -73,6 +73,14 @@ footer a:hover {
 
 /* RESUME 
 ----------------------------------------*/
+.resume header::before {
+    background: url(../images/bg-coffee-shop.jpg) center / cover;
+    /*background-size: cover;*/
+    content: "";
+    display: block;
+    height: 450px;
+
+}
 
 /* Profile
 ----------------------------------------*/
