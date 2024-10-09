@@ -65,10 +65,17 @@ footer a:hover {
 .home {
     background: url(../images/bg-coffee-shop.jpg) no-repeat;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 
 .home .content-wrapper {
+    flex: 1 0 auto;
+}
+
+.content-bg {
     background: rgb(255 255 255 / 0.9); /* White */
+    padding: 30px;
 }
 
 /* RESUME 
